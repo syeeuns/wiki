@@ -1,12 +1,14 @@
-package com.example.channelWiki;
+package com.wiki;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 @SpringBootApplication
-public class ChannelWikiApplication {
+public class WikiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ChannelWikiApplication.class, args);
+		SpringApplication.run(WikiApplication.class, args);
 	}
 }

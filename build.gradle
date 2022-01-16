@@ -25,6 +25,8 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'com.github.derjust:spring-data-dynamodb:5.1.0'
+	implementation 'com.amazonaws:aws-java-sdk-dynamodb:1.12.119'
 }
 
 test {

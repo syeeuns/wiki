@@ -1,0 +1,7 @@
+amazon:
+  aws:
+    access-key: yongki
+    secret-key: yeny
+  dynamodb:
+    endpoint: http://localhost:8008
+    region: ap-northeast-2
