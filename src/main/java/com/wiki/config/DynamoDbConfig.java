@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
 @Configuration
-@EnableDynamoDBRepositories(basePackages = "ch.study.urlshortener.domain")
+@EnableDynamoDBRepositories(basePackages = "com.wiki.domain")
 public class DynamoDbConfig {
 
   @Value("${amazon.dynamodb.endpoint}")
